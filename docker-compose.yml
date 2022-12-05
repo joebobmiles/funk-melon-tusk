@@ -1,0 +1,15 @@
+version: "3"
+services:
+  funk-melon-tusk:
+    image: funk-melon-tusk
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: "no"
+    volumes:
+      - .:/srv/funk-melon-tusk
+      - ./exports:/tmp
+    ports:
+      - 3000:3000
+    entrypoint: "npm run dev"
+    env_file: .env

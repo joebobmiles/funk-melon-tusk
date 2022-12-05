@@ -1,0 +1,23 @@
+{
+  "name": "funk-elon-musk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -L ./app.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0",
+    "nodemailer": "^6.8.0",
+    "twitter-api-sdk": "^1.2.1",
+    "uuid": "^9.0.0",
+    "yaml": "^2.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
